@@ -3,7 +3,7 @@
 }
 body {
   font-family: 'Lato', sans-serif;
-  position:relative;
+  position: relative;
   background-color: #d4d8d8!important;
 
 }
@@ -93,12 +93,15 @@ body {
 a:link {
   color: black;
 }
+
 a:hover {
   color: black;
 }
+
 a:active {
   color: black;
 }
+
 a:visited {
   color: black;
 }
@@ -109,7 +112,7 @@ footer {
   margin-bottom: 0;
 }
 
-.footer-right{
+.footer-right {
   margin: 60px auto;
 }
 
