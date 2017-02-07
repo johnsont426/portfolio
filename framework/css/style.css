@@ -2,83 +2,125 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url(../../img/jpg/lake_crason.jpg);
-  background-size: 100vw 100vh;
   font-family: 'Lato', sans-serif;
+  position:relative;
+  background-color: #d4d8d8!important;
+
+}
+#my-header, #about, #projects, #contact {
+  box-shadow: 5px 5px 5px 5px #c2c3c4;
 }
 
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: black;
-}
-
-a:active {
-    text-decoration: none;
-    color: black;
-}
-
-.img_film {
-  height: 35%;
-  width: 35%;
-  margin-top: 30px;
-  margin-right: 20px;
+#my-header {
+  background-color: #6b6f70;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
 .name {
+  font-family: 'Raleway', sans-serif;
   font-size: 60px;
   margin-top: 30px;
   margin-left: 15px;
+  text-shadow: 2px 2px #c2c3c4;
 }
 
 .title {
+  font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
   margin-top: 5px;
   margin-left: 15px;
 }
 
-.image_icon {
-  width: calc(100% - 140px);
-  margin: 20px 70px 0 70px;
+.intro {
+  font-size: 20px;
+  color: #6f7682;
+  vertical-align: middle;
 }
 
-.projects {
-  display: flex;
-  width: 80%;
-  margin-top: 25vh;
-  margin-bottom: 12vh;
+.intro-content {
+  border-bottom: 2px solid #6f7682;
+  padding-bottom: 10px;
 }
 
-.project_name {
+.intro-title {
+  text-align: center;
+  color: #6f7682
+}
+
+.johnson {
+  width: 50%;
+  height: 50%;
+  margin: 30px auto;
+}
+
+#about {
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#projects {
+  padding: 60px 100px;
+  background-color: #9b9fa5;
+}
+
+.projects-header {
+  border-bottom: 2px solid white;
   color: white;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.nav-bar {
-  display: inline-flex;
-  list-style: none;
-  vertical-align: middle;
-  margin-right: 20px;
+#contact {
+  margin: 0 auto;
+  background-color: white;
 }
 
-.nav-item {
-  font-size: 30px;
-  vertical-align: middle;
-  margin-left: 30px;
+.contact-header {
+  border-bottom: 2px solid #6b6f70;
+  color: #6b6f70;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.nav-link1 {
-  margin-left: 0;
+.contact-info {
+  text-align: center;
+  font-size: 25px;
 }
+
+a:link {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: black;
+}
+
 footer {
   text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.footer-right{
+  margin: 60px auto;
+}
+
+.footer-credit {
+  margin: 50px auto;
+}
+
+.footer-row1 {
+  background-color: #6b6f70
+}
+
+.footer-row2 {
+  background-color: black;
 }
